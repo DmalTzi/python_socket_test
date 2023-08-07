@@ -4,10 +4,11 @@ import pickle
 
 
 HOST = "localhost"
-PORT = 9999
+PORT = 9090
 HEADINGSIZE = 10
 sever = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sever.bind((HOST, PORT))
+sever.listen(1)
 
 sever.listen()
 

@@ -4,7 +4,7 @@ import pickle
 
 MONGO_URL = "mongodb+srv://hdrproject:50230@cluster0.ktm1unb.mongodb.net/?retryWrites=true&w=majority"
 HOST = "0.0.0.0"
-PORT = 5050
+PORT = 9090
 HEADINGSIZE = 10
 
 client = MongoClient(MONGO_URL)
